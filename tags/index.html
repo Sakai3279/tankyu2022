@@ -253,117 +253,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     }
   });
 </script>
-<div class="theme-toggle">
-  <input type="checkbox" id="theme-switch">
-  <label for="theme-switch">
-    <div class="toggle"></div>
-    <div class="names">
-      <p class="light">Light</p>
-      <p class="dark">Dark</p>
-    </div>
-  </label>
-</div>
-
-
-
-
-
-      <!-- [function][get_value] off -->
-
-
-<script>
-  (function() {
-    var sw = document.getElementById('theme-switch');
-    var html = document.getElementsByTagName('html')[0];
-    var nightModeOption = ('off' || 'auto').toLowerCase();
-    var storage = nightModeOption === 'manual'
-        ? localStorage
-        : sessionStorage;
-    var themeData = loadThemeData();
-
-    function saveThemeData(data) {
-      storage.setItem('theme', JSON.stringify(data));
-    }
-
-    function loadThemeData() {
-      var data = storage.getItem('theme');
-      try {
-        data = JSON.parse(data ? data : '');
-      } catch(e) {
-        data = { nightShift: undefined, autoToggleAt: 0 };
-        saveThemeData(data);
-      }
-      return data;
-    }
-
-    function handleThemeToggle(nightShift) {
-      themeData.nightShift = nightShift;
-      saveThemeData(themeData);
-      html.dataset.theme = nightShift ? 'dark' : 'light';
-      setTimeout(function() {
-        sw.checked = nightShift ? true : false;
-      }, 50);
-    }
-
-    function autoThemeToggle() {
-      // Next time point of theme toggle
-      var now = new Date();
-      var toggleAt = new Date();
-      var hours = now.getHours();
-      var nightShift = hours >= 19 || hours <=7;
-
-      if (nightShift) {
-        if (hours > 7) {
-          toggleAt.setDate(toggleAt.getDate() + 1);
-        }
-        toggleAt.setHours(7);
-      } else {
-        toggleAt.setHours(19);
-      }
-
-      toggleAt.setMinutes(0);
-      toggleAt.setSeconds(0);
-      toggleAt.setMilliseconds(0)
-
-      var delay = toggleAt.getTime() - now.getTime();
-
-      // auto toggle theme mode
-      setTimeout(function() {
-        handleThemeToggle(!nightShift);
-      }, delay);
-
-      return {
-        nightShift: nightShift,
-        toggleAt: toggleAt.getTime()
-      };
-    }
-
-    // Listen the theme toggle event
-    sw.addEventListener('change', function(event) {
-      handleThemeToggle(event.target.checked);
-    });
-
-    if (nightModeOption == 'auto') {
-      var data = autoThemeToggle();
-
-      // Toggle theme by local setting
-      if (data.toggleAt > themeData.autoToggleAt) {
-        themeData.autoToggleAt = data.toggleAt;
-        handleThemeToggle(data.nightShift);
-      } else {
-        handleThemeToggle(themeData.nightShift);
-      }
-    } else if (nightModeOption == 'manual') {
-      handleThemeToggle(themeData.nightShift);
-    } else {
-      var nightShift = themeData.nightShift;
-      if (nightShift === undefined) {
-        nightShift = nightModeOption === 'on';
-      }
-      handleThemeToggle(nightShift);
-    }
-  })();
-</script>
 <div id="click-to-top" class="click-to-top">
   <i class="fa fa-arrow-up"></i>
 </div>
@@ -388,39 +277,69 @@ document.addEventListener('DOMContentLoaded', function(event) {
   <section class="main">
 
 
+
   <div class="page-segments">
   <ul class="page-segments-list">
 
     <h2 id="jekyll" class="segment-name">jekyll</h2>
 
+
+
         <li>
 <span class="post-meta">Sep 11, 2022</span>
 <span>
-  <a class="post-link" href="../jekyll/2022/09/11/welcome-to-jekyll.html">
+  <a class="post-link" href="../2022/09/11/welcome-to-jekyll.html">
     Welcome to Jekyll!
   </a>
 </span>
  </li>
+
+
+
+    <h2 id="test" class="segment-name">test</h2>
+
+
+
+        <li>
+<span class="post-meta">Sep 18, 2022</span>
+<span>
+  <a class="post-link" href="../2022/09/18/test-post.html">
+    Test markdown
+  </a>
+</span>
+ </li>
+
+
 
     <h2 id="theme" class="segment-name">theme</h2>
+
+
+
         <li>
 <span class="post-meta">Sep 11, 2022</span>
 <span>
-  <a class="post-link" href="../jekyll/2022/09/11/welcome-to-jekyll.html">
+  <a class="post-link" href="../2022/09/11/welcome-to-jekyll.html">
     Welcome to Jekyll!
   </a>
 </span>
  </li>
 
+
+
     <h2 id="yat" class="segment-name">yat</h2>
+
+
+
         <li>
 <span class="post-meta">Sep 11, 2022</span>
 <span>
-  <a class="post-link" href="../jekyll/2022/09/11/welcome-to-jekyll.html">
+  <a class="post-link" href="../2022/09/11/welcome-to-jekyll.html">
     Welcome to Jekyll!
   </a>
 </span>
  </li>
+
+
 
   </ul>
 </div>
@@ -428,31 +347,36 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
   </section>
   <section class="sidebar" style="margin-left: 15px;">
-    <!-- Get sidebar items -->
 
 <div class="common-list">
   <ul>
     <li>
       <a href="#">
-        All<span>1</span>
+        All<span>2</span>
       </a>
     </li>
 
 
       <li>
-        <a href="#h-jekyll">
+        <a href="./index.html#h-jekyll">
           jekyll <span>1</span>
         </a>
       </li>
 
       <li>
-        <a href="#h-theme">
+        <a href="./index.html#h-test">
+          test <span>1</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="./index.html#h-theme">
           theme <span>1</span>
         </a>
       </li>
 
       <li>
-        <a href="#h-yat">
+        <a href="./index.html#h-yat">
           yat <span>1</span>
         </a>
       </li>
