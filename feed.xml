@@ -1,41 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/2022/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2022/" rel="alternate" type="text/html" /><updated>2022-09-16T22:06:41+09:00</updated><id>http://localhost:4000/2022/feed.xml</id><title type="html">JSFes 2022</title><subtitle>自修館中等教育学校 自修祭HP</subtitle><author><name>自修祭実行委員</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2022/jekyll/2022/09/11/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-09-11T00:00:00+09:00</published><updated>2022-09-11T00:00:00+09:00</updated><id>http://localhost:4000/2022/jekyll/2022/09/11/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2022/jekyll/2022/09/11/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/2022/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2022/" rel="alternate" type="text/html" hreflang="ja" /><updated>2022-10-03T23:42:42+09:00</updated><id>http://localhost:4000/2022/feed.xml</id><title type="html">JSFes 2022</title><subtitle>自修館中等教育学校 自修祭HP</subtitle><author><name>自修祭実行委員会</name></author><entry><title type="html">探究発表会</title><link href="http://localhost:4000/2022/2022/10/03/tankyu.html" rel="alternate" type="text/html" title="探究発表会" /><published>2022-10-03T00:00:00+09:00</published><updated>2022-10-03T00:00:00+09:00</updated><id>http://localhost:4000/2022/2022/10/03/tankyu</id><content type="html" xml:base="http://localhost:4000/2022/2022/10/03/tankyu.html">&lt;p&gt;こんにちは!
+自修祭実行委員会です!&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;自修祭の概要や当日行われる学校説明会の紹介が終わったので、今回からは、今年度自修祭で行われる企画などを紹介していきます!
+すでに、このサイト上で公開されている情報もありますが、このブログでは、そこに乗っていないような情報を中心に発信していきます!&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;section 1&lt;/h2&gt;
+&lt;p&gt;では、ブログ第三回の今回は、第一回自修祭からある、「探究」について紹介していきます。&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;今年度自修祭では、&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1年生による文系探究&lt;/li&gt;
+  &lt;li&gt;2年生による理系探究&lt;/li&gt;
+  &lt;li&gt;3,4年生による、個人探究
+をそれぞれ、見ることができます。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;1,2年探究
+1,2年生は、各クラスの中でグループを作り、そのグループの中で、伊勢原に関係するテーマで探究をします。1,2年生だからこそ見つけることができる、面白い視点で探究を進めていることが多く、とても興味深い発表を聞くことができます!&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;section 2&lt;/h2&gt;
+&lt;p&gt;3,4年探究
+3,4年生は、それぞれが調べたい内容に関して、個人で探究をします。1,2年生で培った探究の技術をフルに活用し、とても濃厚な探究発表が聞けると思います!&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;1,2年では同じテーマ、3,4年では同じゼミの探究を見ると、似ているようなタイトルが複数並んでいることもあります。
+しかし、それぞれ、全く違うアプローチで自分の目的を達成しようとしています。&lt;/p&gt;
 
-&lt;p&gt;$ a * b = c ^ b $&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jsfes.github.io/img/1005/3-1.png&quot; alt=&quot;ゼミ&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;
+&lt;img src=&quot;https://jsfes.github.io/img/1005/3-3.JPG&quot; alt=&quot;発表中&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;$ 2^{\frac{n-1}{3}} $&lt;/p&gt;
+&lt;p&gt;探究に関する詳しい情報は、サイト上にあります。&lt;/p&gt;
 
-&lt;p&gt;$ \int_a^b f(x)\,dx. $&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.jishukan.ed.jp/seitokai/seitokaiHP/tanbun2022/seminar/1st.html&quot;&gt;1年探究&lt;/a&gt; ｜ &lt;a href=&quot;https://www.jishukan.ed.jp/seitokai/seitokaiHP/tanbun2022/seminar/2nd.html&quot;&gt;2年探究&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;ぜひ、気になったテーマ・ゼミがあったら、訪れてみてください!&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
-    &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;p1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;36&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jeffrey</name></author><category term="jekyll" /><category term="jekyll" /><category term="theme" /><category term="yat" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;では、またあした ﾉｼ&lt;/p&gt;</content><author><name>自修祭実行委員会</name></author><category term="自修祭" /><category term="探究" /><summary type="html">こんにちは! 自修祭実行委員会です!</summary></entry><entry><title type="html">学校説明会・校内案内ツアーについて</title><link href="http://localhost:4000/2022/2022/10/02/tour.html" rel="alternate" type="text/html" title="学校説明会・校内案内ツアーについて" /><published>2022-10-02T00:00:00+09:00</published><updated>2022-10-02T00:00:00+09:00</updated><id>http://localhost:4000/2022/2022/10/02/tour</id><content type="html" xml:base="http://localhost:4000/2022/2022/10/02/tour.html">&lt;p&gt;こんにちは！&lt;br /&gt;
+自修祭実行委員会です。&lt;/p&gt;
+
+&lt;p&gt;第二回の今回は、当日行われる学校説明会に関して情報をお伝えします。&lt;/p&gt;
+
+&lt;p&gt;第一会議室で学校説明会が行われます。この学校説明会では、自修館の授業や授業などを生徒目線でお伝えします。普段のものとは一味違う学校説明会です！学校説明会が終わると、要望があった方に生徒が校内を案内する校内案内ツアーを予定しています。また、第一会議室には、質問コーナーもあります！学校に関する疑問などを、生徒が答えます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jsfes.github.io/img/1004/2-6.jpg&quot; alt=&quot;第一会議室&quot; width=&quot;50%&quot; style=&quot;display: inline;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;開催日は&lt;br /&gt;
+10/15（土）と16（日）&lt;br /&gt;
+午前の部：9:00~11:30（受付開始9:10）&lt;br /&gt;
+午後の部：12:30~15:00（受付開始12:40）&lt;br /&gt;
+となっています！&lt;/p&gt;
+
+&lt;p&gt;よろしくお願いします。&lt;/p&gt;
+
+&lt;p&gt;次回からは、様々な自修祭の情報をお伝えしていきます！&lt;br /&gt;
+お楽しみに ﾉｼ&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jsfes.github.io/img/1004/2-1.jpg&quot; alt=&quot;中庭&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;
+&lt;img src=&quot;https://jsfes.github.io/img/1004/2-2.jpg&quot; alt=&quot;教室&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;
+&lt;img src=&quot;https://jsfes.github.io/img/1004/2-3.jpg&quot; alt=&quot;螺旋階段1&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;
+&lt;img src=&quot;https://jsfes.github.io/img/1004/2-4.JPG&quot; alt=&quot;螺旋階段2&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;&lt;/p&gt;</content><author><name>自修祭実行委員会</name></author><category term="自修祭" /><category term="学校説明会" /><summary type="html">こんにちは！ 自修祭実行委員会です。</summary></entry><entry><title type="html">自修祭とは</title><link href="http://localhost:4000/2022/2022/10/01/jsfes.html" rel="alternate" type="text/html" title="自修祭とは" /><published>2022-10-01T00:00:00+09:00</published><updated>2022-10-01T00:00:00+09:00</updated><id>http://localhost:4000/2022/2022/10/01/jsfes</id><content type="html" xml:base="http://localhost:4000/2022/2022/10/01/jsfes.html">&lt;p&gt;こんにちは!&lt;br /&gt;
+自修祭実行委員会です。&lt;/p&gt;
+
+&lt;p&gt;まずは、このブログをご覧いただきありがとうございます!&lt;br /&gt;
+自修祭の季節も近づいてきました。 去年に引き続き、今年も自修祭に関する情報を毎日お届けしたいと思います! よろしくお願いします。&lt;/p&gt;
+
+&lt;p&gt;ということで、記念すべき最初の投稿は、「自修祭」を紹介します。&lt;br /&gt;
+今年のテーマは&lt;br /&gt;
+【Spread Wing ～想像の翼を広げて～】&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jsfes.github.io/img/1003/poster.jpg&quot; alt=&quot;ポスター&quot; width=&quot;50%&quot; style=&quot;display: inline;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;自修祭は、もともと「探究文化発表会・自修祭」という名前でした。 文字通り、生徒が各々の探究を発表していて、それと同時に、日本でもおなじみの文化祭が行わ れています。&lt;br /&gt;
+これが、昨年度から「自修祭」となりました。 今でも探究発表は続いており、生徒たちが頑張って調査したことを発表しています。&lt;/p&gt;
+
+&lt;h2 id=&quot;探究文化発表会&quot;&gt;探究文化発表会&lt;/h2&gt;
+
+&lt;p&gt;探究文化発表会では、 教室で、模造紙を使ったプレゼンをしたり、ホールやステージでスライドを使ったプレゼンをしたり、と、いくつかの方法で行っています。&lt;/p&gt;
+
+&lt;h2 id=&quot;自修祭&quot;&gt;自修祭&lt;/h2&gt;
+
+&lt;p&gt;自修祭では、4,5年生や部活動、委員会などが多種多様な企画を行っています。&lt;br /&gt;
+去年の自修祭の様子です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jsfes.github.io/img/1003/class1.JPG&quot; alt=&quot;クラス企画1&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;
+&lt;img src=&quot;https://jsfes.github.io/img/1003/class2.JPG&quot; alt=&quot;クラス企画2&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jsfes.github.io/img/1003/exec.JPG&quot; alt=&quot;実行委員会企画&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;
+&lt;img src=&quot;https://jsfes.github.io/img/1003/com.JPG&quot; alt=&quot;委員会企画&quot; width=&quot;45%&quot; style=&quot;display: inline;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;委員会では、生徒が事前に手相を学び、占ってくれるユニークな企画も!&lt;br /&gt;
+また、Jホールではダンス部やESS部、器楽部、または有志のステージ発表もあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://jsfes.github.io/img/1003/stage.JPG&quot; alt=&quot;ステージ&quot; width=&quot;50%&quot; style=&quot;display: inline;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;探究文化発表会、自修祭、どちらも、毎年全く違うものがそろうので、とても楽しみです!&lt;br /&gt;
+今回はここまでです。&lt;br /&gt;
+また次回もご覧ください。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;では ﾉｼ&lt;/p&gt;</content><author><name>自修祭実行委員会</name></author><category term="自修祭" /><category term="探究" /><summary type="html">こんにちは! 自修祭実行委員会です。</summary></entry></feed>
